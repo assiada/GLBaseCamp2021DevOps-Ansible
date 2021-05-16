@@ -1,0 +1,11 @@
+---
+- hosts: all
+  roles:
+    - create_file
+   
+- hosts: servers
+  roles:
+   - check_distr_vers  
+ 
+    
+
