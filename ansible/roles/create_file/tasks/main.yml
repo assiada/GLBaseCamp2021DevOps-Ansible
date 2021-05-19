@@ -1,6 +1,6 @@
 ---
 # tasks file for create_file
 - file:
-   path: "/home/devops.txt"
+   path: "/home/ubuntu/devops.txt"
    state: touch
 
